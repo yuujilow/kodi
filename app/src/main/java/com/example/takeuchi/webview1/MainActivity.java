@@ -124,21 +124,21 @@ public class MainActivity extends Activity {
 
 					URI url = new URI("ws://127.0.0.1:9090/jsonrpc");
 
-					try {
-						//WebSocketFactory factory = new WebSocketFactory();
-						/*
+//					try {
+						WebSocketFactory factory = new WebSocketFactory();
+/*
 						WebSocket ws = new WebSocketFactory().createSocket(url);
 						ws.connect();
-						*/
+*/
 
 Log.d("IntentSample", "通ったの？");
 
 
 
 
-					} catch(IOException e) {
+//					} catch(IOException e) {
 
-					}
+//					}
 
 				} catch (URISyntaxException e){
 
