@@ -130,11 +130,7 @@ public class MainActivity extends Activity {
 						WebSocket ws = new WebSocketFactory().createSocket(url);
 						ws.connect();
 						*/
-						WebSocketFactory webSocketFactory = WebSocketFactory.createWebSocketFactory();
-						webSocket = webSocketFactory.createWebSocket(url);
-						webSocket.connect();
-						System.out.print(webSocket);
-						System.out.print("CONNECTED");
+
 Log.d("IntentSample", "通ったの？");
 
 
